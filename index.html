@@ -6,210 +6,189 @@
   <title>Sumanth GN | UI/UX Designer & Cloud Enthusiast</title>
   <link rel="stylesheet" href="style.css"/>
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <div class="logo">Sumanth GN</div>
-      <nav>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-        <a href="resume.pdf" class="btn-resume" target="_blank">Resume</a>
-      </nav>
-    </div>
-  </header>
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1>👋 Hi, I'm Sumanth GN</h1>
-      <p class="subheadline">I design user-first digital experiences and build scalable cloud solutions.</p>
+  <!-- Hero Section with Glassmorphism -->
+  <section class="hero-glass">
+    <div class="hero-content">
+      <h1 class="hero-title">👋 Hi, I'm <span>Sumanth GN</span></h1>
+      <p class="hero-sub">I design user-first digital experiences and build scalable cloud solutions.</p>
       <div class="cta-buttons">
-        <a href="#projects" class="btn-primary">💼 View Portfolio</a>
-        <a href="resume.pdf" class="btn-secondary" target="_blank">📄 Download Resume</a>
+        <a href="#projects" class="btn-glass">💼 View Portfolio</a>
+        <a href="resume.pdf" class="btn-glass-alt" target="_blank">📄 Download Resume</a>
       </div>
     </div>
   </section>
-  <!-- About Me -->
-  <section class="about" id="about">
-    <div class="container about-grid">
-      <div class="about-photo">
+  <!-- Glass About Section -->
+  <section class="glass-section about-section" id="about">
+    <div class="about-glass">
+      <div class="about-photo-glass">
         <img src="assets/your-photo.jpg" alt="Sumanth GN"/>
       </div>
-      <div class="about-text">
+      <div class="about-text-glass">
         <h2>About Me</h2>
         <p>Results-oriented UI/UX Designer and aspiring Cloud/DevOps Engineer with a strong foundation in computer applications. Proficient in user-centered design, intuitive interfaces, user research, and prototyping. Experience with AWS, Linux, and DevOps tools.</p>
         <p><strong>Interests:</strong> UI/UX Trends, Cloud Architecture, Accessibility, Cybersecurity, Design Systems</p>
       </div>
     </div>
   </section>
-  <!-- Projects -->
-  <section class="projects" id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-cards">
-        <div class="project-card">
-          <img src="assets/project1-thumb.png" alt="Eco-Friendly Headphones App"/>
-          <h3>Eco-Friendly Headphones eCommerce App</h3>
-          <p>Responsive mobile shopping interface with login, product browsing, cart, and payment screens.</p>
-          <div class="badges">
-            <span>Figma</span>
-            <span>UI/UX</span>
-          </div>
+  <!-- Projects Showcase -->
+  <section class="glass-section projects-section" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-cards-glass">
+      <div class="project-card-glass">
+        <img src="assets/project1-thumb.png" alt="Eco-Friendly Headphones App"/>
+        <h3>Eco-Friendly Headphones eCommerce App</h3>
+        <p>Responsive mobile shopping interface with login, product browsing, cart, and payment screens.</p>
+        <div class="badges-glass">
+          <span>Figma</span>
+          <span>UI/UX</span>
         </div>
-        <div class="project-card">
-          <img src="assets/project2-thumb.png" alt="MedTech Healthcare Shopping App"/>
-          <h3>MedTech Healthcare Shopping App</h3>
-          <p>Healthcare e-commerce app with full UX flow.</p>
-          <div class="badges">
-            <span>Figma</span>
-            <span>UI/UX</span>
-          </div>
+      </div>
+      <div class="project-card-glass">
+        <img src="assets/project2-thumb.png" alt="MedTech Healthcare Shopping App"/>
+        <h3>MedTech Healthcare Shopping App</h3>
+        <p>Healthcare e-commerce app with full UX flow.</p>
+        <div class="badges-glass">
+          <span>Figma</span>
+          <span>UI/UX</span>
         </div>
-        <div class="project-card">
-          <img src="assets/project3-thumb.png" alt="Burger Delivery App UI"/>
-          <h3>Burger Delivery App UI</h3>
-          <p>Fast-food delivery UI with customizable orders and cart management.</p>
-          <div class="badges">
-            <span>Figma</span>
-            <span>UI/UX</span>
-          </div>
+      </div>
+      <div class="project-card-glass">
+        <img src="assets/project3-thumb.png" alt="Burger Delivery App UI"/>
+        <h3>Burger Delivery App UI</h3>
+        <p>Fast-food delivery UI with customizable orders and cart management.</p>
+        <div class="badges-glass">
+          <span>Figma</span>
+          <span>UI/UX</span>
         </div>
-        <div class="project-card">
-          <img src="assets/project4-thumb.png" alt="AWS VPC Architecture"/>
-          <h3>AWS VPC Architecture</h3>
-          <p>Designed a secure VPC with public/private subnets, NAT gateway, and IAM roles.</p>
-          <div class="badges">
-            <span>AWS</span>
-            <span>Cloud</span>
-          </div>
+      </div>
+      <div class="project-card-glass">
+        <img src="assets/project4-thumb.png" alt="AWS VPC Architecture"/>
+        <h3>AWS VPC Architecture</h3>
+        <p>Designed a secure VPC with public/private subnets, NAT gateway, and IAM roles.</p>
+        <div class="badges-glass">
+          <span>AWS</span>
+          <span>Cloud</span>
         </div>
-        <div class="project-card">
-          <img src="assets/project5-thumb.png" alt="WebHosting with Load Balancer"/>
-          <h3>WebHosting with Load Balancer</h3>
-          <p>Deployed Apache on EC2 with an Elastic Load Balancer and auto scaling.</p>
-          <div class="badges">
-            <span>AWS</span>
-            <span>EC2</span>
-          </div>
+      </div>
+      <div class="project-card-glass">
+        <img src="assets/project5-thumb.png" alt="WebHosting with Load Balancer"/>
+        <h3>WebHosting with Load Balancer</h3>
+        <p>Deployed Apache on EC2 with an Elastic Load Balancer and auto scaling.</p>
+        <div class="badges-glass">
+          <span>AWS</span>
+          <span>EC2</span>
         </div>
-        <div class="project-card">
-          <img src="assets/project6-thumb.png" alt="Static Website Hosting (AWS)"/>
-          <h3>Static Website Hosting (AWS)</h3>
-          <p>Deployed a static website on S3 with CloudFront CDN and SSL.</p>
-          <div class="badges">
-            <span>AWS</span>
-            <span>S3</span>
-            <span>CloudFront</span>
-          </div>
+      </div>
+      <div class="project-card-glass">
+        <img src="assets/project6-thumb.png" alt="Static Website Hosting (AWS)"/>
+        <h3>Static Website Hosting (AWS)</h3>
+        <p>Deployed a static website on S3 with CloudFront CDN and SSL.</p>
+        <div class="badges-glass">
+          <span>AWS</span>
+          <span>S3</span>
+          <span>CloudFront</span>
         </div>
       </div>
     </div>
   </section>
-  <!-- Skills -->
-  <section class="skills" id="skills">
-    <div class="container">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-badge"><img src="assets/figma-icon.svg" alt="Figma"/>Figma</div>
-        <div class="skill-badge"><img src="assets/aws-icon.svg" alt="AWS"/>AWS</div>
-        <div class="skill-badge"><img src="assets/docker-icon.svg" alt="Docker"/>Docker</div>
-        <div class="skill-badge"><img src="assets/linux-icon.svg" alt="Linux"/>Linux</div>
-        <div class="skill-badge"><img src="assets/xd-icon.svg" alt="Adobe XD"/>Adobe XD</div>
-        <div class="skill-badge"><img src="assets/canva-icon.svg" alt="Canva"/>Canva</div>
-        <div class="skill-badge"><img src="assets/photoshop-icon.svg" alt="Photoshop"/>Photoshop</div>
-        <div class="skill-badge"><img src="assets/terraform-icon.svg" alt="Terraform"/>Terraform</div>
-        <div class="skill-badge"><img src="assets/git-icon.svg" alt="Git"/>Git</div>
-      </div>
-      <div class="soft-skills">
-        <span>Communication</span>
-        <span>Agile</span>
-        <span>Team Collaboration</span>
-        <span>Problem Solving</span>
-      </div>
+  <!-- Skills Section -->
+  <section class="glass-section skills-section" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid-glass">
+      <div class="skill-badge-glass"><img src="assets/figma-icon.svg" alt="Figma"/>Figma</div>
+      <div class="skill-badge-glass"><img src="assets/aws-icon.svg" alt="AWS"/>AWS</div>
+      <div class="skill-badge-glass"><img src="assets/docker-icon.svg" alt="Docker"/>Docker</div>
+      <div class="skill-badge-glass"><img src="assets/linux-icon.svg" alt="Linux"/>Linux</div>
+      <div class="skill-badge-glass"><img src="assets/xd-icon.svg" alt="Adobe XD"/>Adobe XD</div>
+      <div class="skill-badge-glass"><img src="assets/canva-icon.svg" alt="Canva"/>Canva</div>
+      <div class="skill-badge-glass"><img src="assets/photoshop-icon.svg" alt="Photoshop"/>Photoshop</div>
+      <div class="skill-badge-glass"><img src="assets/terraform-icon.svg" alt="Terraform"/>Terraform</div>
+      <div class="skill-badge-glass"><img src="assets/git-icon.svg" alt="Git"/>Git</div>
+    </div>
+    <div class="soft-skills-glass">
+      <span>Communication</span>
+      <span>Agile</span>
+      <span>Team Collaboration</span>
+      <span>Problem Solving</span>
     </div>
   </section>
-  <!-- Experience & Education -->
-  <section class="timeline" id="experience">
-    <div class="container">
-      <h2>Experience & Education</h2>
-      <div class="timeline-list">
-        <div class="timeline-card">
-          <img src="assets/dxc-logo.png" alt="DXC Technology"/>
-          <div>
-            <h3>DXC Technology</h3>
-            <p>Global Service Desk Intern (Remote)</p>
-            <span>Dec 2024 - Apr 2025</span>
-            <ul>
-              <li>Assisted in incident resolution, application monitoring, and user access management.</li>
-              <li>Completed UI/UX certification to strengthen design knowledge.</li>
-              <li>Documented tickets and contributed to resolution workflows.</li>
-            </ul>
-          </div>
+  <!-- Timeline Section -->
+  <section class="glass-section timeline-section" id="experience">
+    <h2 class="section-title">Experience & Education</h2>
+    <div class="timeline-list-glass">
+      <div class="timeline-card-glass">
+        <img src="assets/dxc-logo.png" alt="DXC Technology"/>
+        <div>
+          <h3>DXC Technology</h3>
+          <p>Global Service Desk Intern (Remote)</p>
+          <span>Dec 2024 - Apr 2025</span>
+          <ul>
+            <li>Assisted in incident resolution, application monitoring, and user access management.</li>
+            <li>Completed UI/UX certification to strengthen design knowledge.</li>
+            <li>Documented tickets and contributed to resolution workflows.</li>
+          </ul>
         </div>
-        <div class="timeline-card">
-          <img src="assets/sit-logo.png" alt="Siddaganga Institute of Technology"/>
-          <div>
-            <h3>Siddaganga Institute of Technology, Tumkur</h3>
-            <p>Master of Computer Applications (MCA)</p>
-            <span>Jul 2022 - Oct 2024</span>
-          </div>
+      </div>
+      <div class="timeline-card-glass">
+        <img src="assets/sit-logo.png" alt="Siddaganga Institute of Technology"/>
+        <div>
+          <h3>Siddaganga Institute of Technology, Tumkur</h3>
+          <p>Master of Computer Applications (MCA)</p>
+          <span>Jul 2022 - Oct 2024</span>
         </div>
-        <div class="timeline-card">
-          <img src="assets/vfgc-logo.png" alt="Vidyavahini First Grade College"/>
-          <div>
-            <h3>Vidyavahini First Grade College, Tumkur</h3>
-            <p>Bachelor of Computer Applications (BCA)</p>
-            <span>Sep 2019 - May 2022</span>
-          </div>
+      </div>
+      <div class="timeline-card-glass">
+        <img src="assets/vfgc-logo.png" alt="Vidyavahini First Grade College"/>
+        <div>
+          <h3>Vidyavahini First Grade College, Tumkur</h3>
+          <p>Bachelor of Computer Applications (BCA)</p>
+          <span>Sep 2019 - May 2022</span>
         </div>
-        <div class="timeline-card">
-          <img src="assets/vnpc-logo.png" alt="Vidyanidhi PU College"/>
-          <div>
-            <h3>Vidyanidhi PU College, Tumkur</h3>
-            <p>Pre-University Course (PUC)</p>
-            <span>Jun 2018 - Apr 2019</span>
-          </div>
+      </div>
+      <div class="timeline-card-glass">
+        <img src="assets/vnpc-logo.png" alt="Vidyanidhi PU College"/>
+        <div>
+          <h3>Vidyanidhi PU College, Tumkur</h3>
+          <p>Pre-University Course (PUC)</p>
+          <span>Jun 2018 - Apr 2019</span>
         </div>
-        <div class="timeline-card">
-          <img src="assets/mvk-logo.png" alt="Maruthi Vidya Kendra"/>
-          <div>
-            <h3>Maruthi Vidya Kendra, Tumkur</h3>
-            <p>SSLC</p>
-            <span>Jun 2016 - Apr 2017</span>
-          </div>
+      </div>
+      <div class="timeline-card-glass">
+        <img src="assets/mvk-logo.png" alt="Maruthi Vidya Kendra"/>
+        <div>
+          <h3>Maruthi Vidya Kendra, Tumkur</h3>
+          <p>SSLC</p>
+          <span>Jun 2016 - Apr 2017</span>
         </div>
       </div>
     </div>
   </section>
-  <!-- Certifications -->
-  <section class="certifications" id="certifications">
-    <div class="container">
-      <h2>Certifications</h2>
-      <div class="cert-cards">
-        <div class="cert-card">
-          <span class="cert-badge">Udemy</span>
-          <p>UI/UX Design Certification</p>
-        </div>
-        <div class="cert-card">
-          <span class="cert-badge">AWS</span>
-          <p>AWS Micro-Degree Architecture, Best Practices, IaC</p>
-        </div>
+  <!-- Certifications Section -->
+  <section class="glass-section cert-section" id="certifications">
+    <h2 class="section-title">Certifications</h2>
+    <div class="cert-cards-glass">
+      <div class="cert-card-glass">
+        <span class="cert-badge-glass">Udemy</span>
+        <p>UI/UX Design Certification</p>
+      </div>
+      <div class="cert-card-glass">
+        <span class="cert-badge-glass">AWS</span>
+        <p>AWS Micro-Degree Architecture, Best Practices, IaC</p>
       </div>
     </div>
   </section>
   <!-- Footer -->
-  <footer id="contact">
-    <div class="container">
+  <footer class="footer-glass" id="contact">
+    <div class="footer-content-glass">
       <p>📧 gnsumanth81@gmail.com</p>
       <p>
         <a href="https://linkedin.com/in/sumanthgn21" target="_blank">LinkedIn</a> |
         <a href="https://github.com/sumanthgn-cloud" target="_blank">GitHub</a>
       </p>
-      <p class="open-to-work">💬 Open to work – full-time or internship UI/UX opportunities</p>
+      <p class="open-to-work-glass">💬 Open to work – full-time or internship UI/UX opportunities</p>
     </div>
   </footer>
 </body>
